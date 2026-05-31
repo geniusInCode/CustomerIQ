@@ -1,0 +1,11 @@
+customer_id,gender,age,city,plan,join_date,churned
+C0001,Female,35,Hyderabad,Basic,2022-01-01,0
+C0002,Female,55,Pune,Standard,2022-01-01,0
+C0003,Female,23,Hyderabad,Basic,2022-01-02,0
+C0004,Male,67,Pune,Basic,2022-01-03,0
+C0005,Female,45,Pune,Premium,2022-01-04,1
+C0006,Female,22,Bangalore,Premium,2022-01-05,0
+C0007,Male,67,Bangalore,Basic,2022-01-06,0
+C0008,Male,31,Hyderabad,Standard,2022-01-07,0
+C0009,Other,38,Mumbai,Basic,2022-01-08,0
+C0010,Male,68,Delhi,Standard,2022-01-09,0
