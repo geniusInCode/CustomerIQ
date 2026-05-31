@@ -2,6 +2,8 @@
 
 CustomerIQ is a full-stack customer analytics platform built with Python and Flask that performs ETL processing, RFM analysis, customer segmentation, churn prediction, cohort analysis, A/B testing, and business intelligence reporting through an interactive dashboard and REST APIs.
 
+Demo Link :- https://customeriq-b9py.onrender.com/
+
 ## Features
 
 ### ETL Pipeline
