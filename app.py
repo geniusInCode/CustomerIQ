@@ -541,8 +541,8 @@ async function loadML(){
     <div class="srow"><span class="sk">Accuracy</span><span class="sv">${(d.accuracy*100).toFixed(1)}%</span></div>
     <div class="srow"><span class="sk">Features</span><span class="sv">${d.features.length}</span></div>`;
   document.getElementById('abtest').innerHTML=`
-    <div class="srow"><span class="sk">Premium AOV</span><span class="sv">₹${ad.premium.mean.toLocaleString()}</span></div>
-    <div class="srow"><span class="sk">Basic AOV</span><span class="sv">₹${ad.basic.mean.toLocaleString()}</span></div>
+    <div class="srow"><span class="sk">Premium AOV</span><span class="sv">₹${ab.premium.mean.toLocaleString()}</span></div>
+    <div class="srow"><span class="sk">Basic AOV</span><span class="sv">₹${ab.basic.mean.toLocaleString()}</span></div>
     <div class="srow"><span class="sk">P-Value</span><span class="sv">${ab.p_value}</span></div>
     <div class="srow"><span class="sk">Significant?</span><span class="sv">${ab.significant?'✅ Yes':'❌ No'}</span></div>`;
   new Chart(document.getElementById('featChart'),{
